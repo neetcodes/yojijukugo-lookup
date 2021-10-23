@@ -7,8 +7,10 @@ This script extracts definitions from https://yoji.jitenon.jp/
 It can be used standalone or through Goldendict program execution feature.
 
 ### Installation
-Grab the [yojijukugo.py](yojijukugo.py) file from this repository and execute it with python.
-BeautifulSoup4 is a requirement, which can be installed through pip.  
-`python -m pip install beautifulsoup4`
+BeautifulSoup4 and lxml are requirements, which can be installed through pip.  
+`python -m pip install beautifulsoup4 lxml`
+
+Grab the [yojijukugo.py](yojijukugo.py) file from this repository and execute it with python.  
+`python yojijukugo.py <word>`  
 
 ![Screenshot](screenshot.png)
