@@ -29,7 +29,7 @@ def getentry(word, showreading=True):
     try:
         req = requests.get(url, headers=headers)
     except:
-        print("lol")
+        print("Failed to connect", file=sys.stderr)
         return("")
     soup = BeautifulSoup(req.text, 'lxml')
     mainarea = soup.find("table", {"class": "kanjirighttb"})
